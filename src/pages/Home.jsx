@@ -39,7 +39,7 @@ const Home = () => {
   console.log(topMovies);
 
   return (
-    <div className="container">
+    <div className="container alinhamento">
       <h2 className="title">Busque seus filmes preferidos!</h2>
 
       <form onSubmit={handleSubmit}>

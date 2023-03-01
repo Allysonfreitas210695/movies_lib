@@ -20,7 +20,7 @@ a:hover {
   color: #b8930c;
 }
 
-.container{
+.container.alinhamento{
   display: flex;
   flex-direction: column;
   height: calc(100vh - 60px);
