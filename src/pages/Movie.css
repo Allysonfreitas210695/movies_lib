@@ -1,14 +1,19 @@
 .movie-page {
   color: #fff;
-  display: grid;
-  flex-direction: column;
-  max-width: 600px;
   margin: 2rem auto;
+  display: flex;
+  margin: 2rem 0;
+  gap: 2rem;
+  justify-content: center;
 }
 
 .movie-page svg {
   font-size: 1.5rem;
   color: #f7d354;
+}
+
+.movie-info{
+  max-width: 500px;
 }
 
 .movie-page .movie-card {
