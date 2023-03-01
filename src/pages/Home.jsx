@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 // import MovieCard from "../components/MovieCard";
 import { useNavigate } from "react-router-dom";
 import { BiSearchAlt2 } from "react-icons/bi";
+import "../components/Navbar.css";
 
 import "./MoviesGrid.css";
 
@@ -39,7 +40,7 @@ const Home = () => {
 
   return (
     <div className="container">
-      <h2 className="title">Melhores filmes:</h2>
+      <h2 className="title">Busque seus filmes preferidos!</h2>
 
       <form onSubmit={handleSubmit}>
         <input
