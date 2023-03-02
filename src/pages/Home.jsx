@@ -40,12 +40,15 @@ const Home = () => {
 
   return (
     <div className="container alinhamento">
-      <h2 className="title">Busque seus filmes preferidos!</h2>
+      <h1 className="title">MoviesHunter</h1>
+      <h2 className="subtitle">
+        Escolha um filme. Descubra as principais informações sobre ele.
+      </h2>
 
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          placeholder="Busque um filme"
+          placeholder="Digite o nome do filme aqui"
           onChange={(e) => setSearch(e.target.value)}
           value={search}
         />

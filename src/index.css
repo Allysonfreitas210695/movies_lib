@@ -20,9 +20,15 @@ a:hover {
   color: #b8930c;
 }
 
-.container.alinhamento{
+.container.alinhamento {
   display: flex;
   flex-direction: column;
   height: calc(100vh - 60px);
   justify-content: center;
+}
+
+.container .title {
+  font-size: 8rem;
+  color: white;
+  text-align: center;
 }
