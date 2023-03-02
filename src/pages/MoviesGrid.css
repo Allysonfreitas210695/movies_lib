@@ -26,11 +26,12 @@
   flex-direction: column;
   justify-content: space-between;
   background-color: #111;
-  padding: 1rem;
+  border-radius: 10px;
 }
 
 .movies-container div img {
   max-width: 100%;
+  padding: 1rem 1rem 0 1rem;
 }
 
 .movies-container div img,
@@ -49,7 +50,7 @@
 .movies-container div a {
   background-color: #aa1ce5;
   border: 2px solid #aa1ce5;
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
   color: white;
   padding: 10px 17px;
   font-weight: bold;
