@@ -26,6 +26,12 @@
   margin-bottom: 1rem;
 }
 
+.movie-card .movie-title {
+  padding-top: 20px;
+  padding-bottom: 37px;
+  padding: 1rem 0 1rem 1rem;
+}
+
 .movie-page .movie-card h2 {
   font-size: 2rem;
 }
