@@ -39,7 +39,7 @@ const Home = () => {
   console.log(topMovies);
 
   return (
-    <div className="container alinhamento">
+    <div className="container alinhamento banner">
       <h1 className="title">MoviesHunter</h1>
       <h2 className="subtitle">
         Escolha um filme. Descubra as principais informações sobre ele.

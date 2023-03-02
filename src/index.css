@@ -25,10 +25,16 @@ a:hover {
   flex-direction: column;
   height: calc(100vh - 60px);
   justify-content: center;
+  z-index: 1;
+}
+
+.banner{
+  background: url(/src/img/Filmes.png);
+  background-size: cover;
 }
 
 .container .title {
-  font-size: 8rem;
+  font-size: 6rem;
   color: white;
   text-align: center;
 }
