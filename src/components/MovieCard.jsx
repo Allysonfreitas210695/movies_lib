@@ -8,9 +8,11 @@ const MovieCard = ({ movie, showLink = true }) => {
     <div className="movie-card">
       <img src={imagesURL + movie.poster_path} alt={movie.title} />
       <p className="movie-title">{movie.title}</p>
-      {showLink && <Link to={`/movie/${movie.id}`}>
-        Saiba mais <BiChevronRight size={24}/>
-      </Link>}
+      {showLink && (
+        <Link to={`/movie/${movie.id}`}>
+          Saiba mais <BiChevronRight size={24} />
+        </Link>
+      )}
     </div>
   );
 };
