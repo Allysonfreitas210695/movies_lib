@@ -9,11 +9,20 @@
 
 .movie-page svg {
   font-size: 1.5rem;
-  color: #f7d354;
+  color: #aa1ce5;
 }
 
-.movie-info{
+.movie-info {
   max-width: 500px;
+}
+
+@media (max-width: 1024px) {
+  .movie-page {
+    flex-direction: column;
+  }
+  .movie-info {
+    margin: 0 auto;
+  }
 }
 
 .movie-page .movie-card {
