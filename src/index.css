@@ -16,12 +16,6 @@ body {
 
 a {
   text-decoration: none;
-  color: #f7d354;
-  transition: 0.5s;
-}
-
-a:hover {
-  color: #b8930c;
 }
 
 .container.alinhamento {
@@ -97,7 +91,7 @@ input {
   max-width: 670px;
   width: 100%;
   height: 60px;
-  font-size: 1.75rem;
+  font-size: 1.125rem;
 }
 
 input:focus {
@@ -107,7 +101,7 @@ input:focus {
 ::-webkit-input-placeholder {
   font-family: "Inter", sans-serif;
   font-weight: 400;
-  font-size: 1.75rem;
+  font-size: 1.125rem;
   color: #c4c4c5;
 }
 

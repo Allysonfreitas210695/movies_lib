@@ -25,7 +25,6 @@
 @media (max-width: 1080px) {
   .title-busca {
     font-size: 3rem;
-    text-align: start;
   }
 }
 
@@ -56,8 +55,9 @@
 
 @media (max-width: 768px) {
   .movies-container {
-    flex-direction: column;
     gap: 1.5rem;
+    align-items: center;
+    flex-direction: column;
   }
 }
 
@@ -70,6 +70,12 @@
   justify-content: space-between;
   background-color: #111;
   border-radius: 10px;
+}
+
+@media (max-width: 920px) {
+  .movies-container div {
+    width: 45%;
+  }
 }
 
 @media (max-width: 768px) {
