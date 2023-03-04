@@ -14,15 +14,16 @@
   }
 }
 
-@media (max-width: 572px) {
+@media (max-width: 1024px) {
   .movie-page {
-    height: 115vh;
+    flex-direction: column;
+    height: calc(100vh - 120px);
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 376px) {
   .movie-page {
-    height: 150vh;
+    height: 115vh;
   }
 }
 
@@ -42,10 +43,6 @@
 }
 
 @media (max-width: 1024px) {
-  .movie-page {
-    flex-direction: column;
-    height: 115vh;
-  }
   .movie-info {
     margin: 0 auto;
   }
