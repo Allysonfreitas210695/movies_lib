@@ -1,12 +1,12 @@
 * {
-  font-family: Helvetica;
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #000;
+  background-color: #1F1F23;
   height: 100vh;
 }
 
@@ -34,8 +34,21 @@ a:hover {
 }
 
 .container .title {
-  font-size: 4rem;
-  color: white;
+  font-size: 7.75rem;
+  color: #EFEFF1;
   text-align: center;
-  margin-top: 4rem;
+  font-family: 'Haettenschweiler', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+html ::-webkit-scrollbar {
+  width: 10px;
+}
+html ::-webkit-scrollbar-thumb {
+  border-radius: 500px;
+  background: #a91ce5d8;
+}
+html ::-webkit-scrollbar-track {
+  background: #ededed;
 }
