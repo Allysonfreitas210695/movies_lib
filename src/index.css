@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Haettenschweiler";
+  src: local("Haettenschweiler"), url("./fonts/haettenschweiler.ttf");
+}
+
 body {
   background-color: #1f1f23;
   height: 100vh;
