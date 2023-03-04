@@ -5,8 +5,14 @@ import "./style.css";
 const Footer = () => {
   return (
     <div className="Footer">
+      <h2 className="footer-cop">
+        &copy;&nbsp;
+      </h2>
+      <p> </p>
       <h2 className="footer-h2">
-        &copy; 2023 MoviesHunter - Todos os direitos reservados
+        2023 MovieHunter -
+      </h2>
+        <h2 className="footer-res"> Todos os direitos reservados
       </h2>
     </div>
   );

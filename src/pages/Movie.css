@@ -1,8 +1,8 @@
 .movie-page {
   color: #fff;
-  margin: 2rem auto;
+  background-color: #1F1F23;
+  padding: 42px;
   display: flex;
-  margin: 2rem 0;
   gap: 2rem;
   justify-content: center;
 }
@@ -39,6 +39,11 @@
   padding-top: 20px;
   padding-bottom: 37px;
   padding: 1rem 0 1rem 1rem;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #EFEFF1;
+
 }
 
 .movie-page .movie-card h2 {

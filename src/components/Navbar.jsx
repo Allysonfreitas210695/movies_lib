@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav id="navbar">
       <h2>
         <Link to="/">
-          <BiChevronLeft /> MoviesHunter
+          <BiChevronLeft /> MovieHunter
         </Link>
       </h2>
     </nav>

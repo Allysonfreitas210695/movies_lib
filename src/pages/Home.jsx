@@ -40,7 +40,7 @@ const Home = () => {
 
   return (
     <div className="container alinhamento banner">
-      <h1 className="title">MoviesHunter</h1>
+      <h1 className="title">MovieHunter</h1>
       <h2 className="subtitle">
         Escolha um filme. Descubra as principais informações sobre ele.
       </h2>
