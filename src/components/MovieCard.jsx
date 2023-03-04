@@ -10,7 +10,7 @@ const MovieCard = ({ movie, showLink = true }) => {
       <p className="movie-title">{movie.title}</p>
       {showLink && (
         <Link to={`/movie/${movie.id}`}>
-          Saiba mais <BiChevronRight size={24} />
+          Saiba mais <BiChevronRight size={25} />
         </Link>
       )}
     </div>
