@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .movie-page {
     height: 150vh;
   }
@@ -66,9 +66,9 @@
   max-height: 525px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .movie-page .movie-card img {
-    max-width: 100%;
+    max-width: 95%;
     max-height: 100%;
     object-fit: contain;
   }
@@ -112,8 +112,15 @@
   gap: 0.625rem;
   font-family: "Inter", sans-serif;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 1.125rem;
   color: #efeff1;
+}
+
+@media (max-width: 420px) {
+  .info h3,
+  .info.description p {
+    font-size: 0.875rem;
+  }
 }
 
 .description p {
