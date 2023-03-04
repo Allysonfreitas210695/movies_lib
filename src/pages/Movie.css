@@ -1,11 +1,27 @@
 .movie-page {
   color: #fff;
-  background-color: #1F1F23;
-  padding: 42px;
+  background-color: #1f1f23;
+  padding: 2.625rem;
   display: flex;
   gap: 2rem;
   justify-content: center;
-  
+  height: calc(100vh - 120px);
+}
+
+@media (max-width: 1900px) {
+  .movie-page {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 572px) {
+  .movie-page {
+    height: 115vh;
+  }
+}
+
+.movie-page .movie-card p {
+  display: none !important;
 }
 
 .movie-page svg {
@@ -15,8 +31,7 @@
 
 .movie-info {
   max-width: 500px;
-  align-items: center;
-  justify-items: center;
+  margin-top: 6.25rem;
 }
 
 @media (max-width: 1024px) {
@@ -38,7 +53,7 @@
   margin-bottom: 1rem;
 }
 
-.movie-page .movie-card img{
+.movie-page .movie-card img {
   width: 350px;
   height: 525px;
 }
@@ -47,16 +62,14 @@
   padding-top: 20px;
   padding-bottom: 37px;
   padding: 1rem 0 1rem 1rem;
-  font-family: 'Inter',sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #EFEFF1;
-
+  color: #efeff1;
 }
 
 .movie-page .movie-card h2 {
   font-size: 2rem;
-  
 }
 
 .movie-page .movie-card p {
@@ -64,7 +77,6 @@
   align-items: center;
   justify-content: center;
   gap: 0.4rem;
-  
 }
 
 .tagline {
@@ -74,24 +86,24 @@
 }
 
 .info {
-  margin-bottom: .9375rem;
+  margin-bottom: 0.9375rem;
 }
 
 .info h3 {
-  margin-bottom: .75rem;
+  margin-bottom: 0.75rem;
   display: flex;
   align-items: center;
-  gap: .625rem;
-  font-family: 'Inter', sans-serif;
+  gap: 0.625rem;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 19px;
-  color: #EFEFF1;
+  color: #efeff1;
 }
 
 .description p {
   text-align: justify;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 17px;
-  color: #EFEFF1;
+  color: #efeff1;
 }

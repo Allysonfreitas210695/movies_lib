@@ -26,7 +26,7 @@ const Search = () => {
 
   return (
     <div className="container">
-      <h2 className="title">
+      <h2 className="title-busca">
         Resultados para: <span className="query-text">{query}</span>
       </h2>
       <div className="movies-container">

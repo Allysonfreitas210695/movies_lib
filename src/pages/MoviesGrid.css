@@ -1,28 +1,64 @@
-.container{
-  background-color: #1F1F23;
+.container {
+  background-color: #1f1f23;
 }
 
 .container .subtitle {
-  
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
-  color: #EFEFF1;
+  color: #efeff1;
   font-size: 2rem;
   text-align: center;
   margin: 2rem 0 1rem;
 }
 
-.title .query-text {
+.title-busca {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  padding: 2rem;
+  max-width: 75rem;
+  margin: 0 auto;
+  font-size: 4rem;
+  color: #efeff1;
+  text-align: center;
+}
+
+@media (max-width: 1080px) {
+  .title-busca {
+    font-size: 3rem;
+    text-align: start;
+  }
+}
+
+@media (max-width: 572px) {
+  .title-busca {
+    font-size: 2rem;
+  }
+}
+
+.title-busca .query-text {
   color: #aa1ce5;
 }
 
 .movies-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 3.125rem;
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+@media (max-width: 1080px) {
+  .movies-container {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .movies-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 }
 
 .movies-container div {
@@ -34,6 +70,12 @@
   justify-content: space-between;
   background-color: #111;
   border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .movies-container div {
+    width: 70%;
+  }
 }
 
 .movies-container div img {
@@ -51,7 +93,7 @@
 }
 
 .movies-container div svg {
-  color: #EFEFF1;
+  color: #efeff1;
 }
 
 .movies-container div a {
@@ -62,11 +104,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
-  color: #EFEFF1;
+  font-size: 1.1875rem;
+  color: #efeff1;
+}
+
+@media (max-width: 768px) {
+  .movies-container div a {
+    font-size: 0.875rem;
+  }
 }
 
 .movies-container div a:hover {

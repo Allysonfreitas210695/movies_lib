@@ -1,34 +1,49 @@
 .Footer {
   padding: 1rem 2rem;
-  background-color: #18181B;
+  background-color: #18181b;
   display: flex;
   flex-direction: row;
-  
+  align-items: center;
 }
 .footer-h2 {
-  font-family: 'Haettenschweiler', sans-serif;
+  font-family: "Haettenschweiler", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 23px;
-  color: #C4C4C5;
+  color: #c4c4c5;
 }
 
-.footer-cop{
-font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color: #C4C4C5;
-}
-
-.footer-res{
-  font-family: 'Inter', sans-serif;
+.footer-cop {
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #C4C4C5;
+  color: #c4c4c5;
+}
 
+.footer-res {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  color: #c4c4c5;
+}
+
+@media (max-width: 572px) {
+  .footer-h2,
+  .footer-cop,
+  .footer-res {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 462px) {
+  .footer-h2,
+  .footer-cop,
+  .footer-res {
+    font-size: 0.75rem;
+  }
 }
