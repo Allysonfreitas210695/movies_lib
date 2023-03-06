@@ -9,6 +9,7 @@ import {
   BsFillFileEarmarkTextFill,
 } from "react-icons/bs";
 
+import { useSearchParams } from "react-router-dom";
 import MovieCard from "../components/MovieCard";
 import Navbar from "../components/Navbar"
 import "./Movie.css";
@@ -19,6 +20,8 @@ const apiKey = import.meta.env.VITE_API_KEY;
 const Movie = () => {
   const { id } = useParams();
   const [movie, setMovie] = useState(null);
+  const [searchParams] = useSearchParams();
+  const query = searchParams.get("q");
 
   const getMovie = async (url) => {
     const res = await fetch(url);
@@ -34,7 +37,7 @@ const Movie = () => {
 
   return (
     <>
-      <Navbar />
+      <Navbar link={"/search"} query={query} />
       <div className="movie-page">
         {movie && (
           <>

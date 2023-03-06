@@ -17,7 +17,7 @@
 @media (max-width: 1024px) {
   .movie-page {
     flex-direction: column;
-    height: calc(100vh - 120px);
+    min-height: calc(100vh - 120px);
   }
 }
 
