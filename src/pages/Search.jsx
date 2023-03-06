@@ -27,7 +27,7 @@ const Search = () => {
 
   return (
     <>
-      <Navbar />
+      <Navbar link={"/"}/>
       <div className="container">
         <h2 className="title-busca">
           Resultados para: <span className="query-text">{query}</span>
@@ -35,7 +35,7 @@ const Search = () => {
         <div className="movies-container">
           {movies &&
             movies.length > 0 &&
-            movies.map((movie) => <MovieCard key={movie.id} movie={movie} />)}
+            movies.map((movie) => <MovieCard key={movie.id} movie={movie} query={query} />)}
         </div>
       </div>
     </>
